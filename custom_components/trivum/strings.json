@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "trivum verbinden",
+        "description": "IP-Adresse oder Hostname des trivum-Servers eingeben.",
+        "data": { "host": "Host / IP-Adresse", "port": "Port" }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen. IP/Port prüfen.",
+      "invalid_response": "Der Server hat keine gültige trivum-Antwort geliefert."
+    },
+    "abort": { "already_configured": "Dieser trivum-Server ist bereits eingerichtet." }
+  }
+}
